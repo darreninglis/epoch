@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Black+Han+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+	margin: 0;
+	padding: 0;
+	color: white;
+	overflow: visible;
+}
+
+html,
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: #000;
+}
+
+body {
+	display: grid;
+	justify-content: center;
+}
+
+main svg {
+	width: 100vw;
+	height: 65vh;
+}
+
+#title {
+	text-align: center;
+	font-size: 4em;
+	font-family: "Black Han Sans", sans-serif;
+	padding: 0;
+	margin-top: -10px;
+}
+
+#subTitle {
+	text-align: center;
+	font-family: "Black Han Sans", sans-serif;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: -15px;
+}
+
+#bar {
+	margin: auto;
+	width: 65vw;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	height: 1.5em;
+}
+
+#year {
+	font-family: "Open Sans", sans-serif;
+	white-space: nowrap;
+	/* mix-blend-mode: difference; */
+	/* color: rgb(72, 72, 184) !important; */
+	text-shadow: 1px 1px 4px rgb(209, 223, 250);
+}
+
+footer {
+	text-align: center;
+	margin-top: auto;
+	margin-bottom: 1em;
+	font-size: 1.2em;
+	padding-top: 10px;
+	color: #d1d1d1;
+	font-family: "Indie Flower", cursive;
+	border: 3px solid black;
+}
+
+#moonOrbit {
+	transform-origin: center center;
+	animation: spin-right 12s linear infinite;
+}
+
+.fas {
+	color: red;
+}
+
+@keyframes spin-right {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotateZ(360deg);
+	}
+}
+@media (max-width: 500px) {
+	#year {
+		width: 20px;
+	}
+}
