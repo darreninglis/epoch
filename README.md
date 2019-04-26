@@ -24,4 +24,6 @@ This was a fun project because it held quite a few firsts for me:
 
 ## Feedback or suggestions?
 
+View in Chrome Webstore [here](https://chrome.google.com/webstore/detail/epoch-make-today-count-ne/afgimcjppakkoelgdpijgjmonnbcbgjc).
+
 Reach out to me on [Twitter](https://twitter.com/megabitlabs), I'd love to hear from you :)
