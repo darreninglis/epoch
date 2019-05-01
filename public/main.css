@@ -54,7 +54,7 @@ main svg {
 	white-space: nowrap;
 	/* mix-blend-mode: difference; */
 	/* color: rgb(72, 72, 184) !important; */
-	text-shadow: 1px 1px 4px rgb(209, 223, 250);
+	/* text-shadow: 1px 1px 4px rgb(209, 223, 250); */
 }
 
 footer {
