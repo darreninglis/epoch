@@ -31,5 +31,6 @@ if (yearPassed > 11) {
 } else  {
 	move(11);
 }
+
 document.getElementById('title').innerHTML = year;
 document.getElementById('subTitle').innerHTML = yearPassed + '% complete!';

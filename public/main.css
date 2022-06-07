@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Black+Han+Sans");
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -81,10 +82,12 @@ footer {
 	0% {
 		transform: rotate(0deg);
 	}
+
 	100% {
 		transform: rotateZ(360deg);
 	}
 }
+
 @media (max-width: 500px) {
 	#year {
 		width: 20px;
